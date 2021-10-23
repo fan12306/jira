@@ -3,9 +3,9 @@ import SearchPanel from "./SearchPanel";
 import List from './List'
 import axios from "axios";
 import qs from 'qs'
-import {cleanObject, useDebounce} from "../../utils";
+import {cleanObject, useDebounce} from "@/utils";
 
-export default  () => {
+export default function ProjectScreens() {
     const [params, setParams] = useState({
         userId: '',
         name: ''
